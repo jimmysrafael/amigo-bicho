@@ -15,10 +15,10 @@ body {
 }
 
 .background {
-  background-color: #99C5BB;
+  background-color: #99c5bb;
 }
 
-.retanguloMaior{
+.retanguloMaior {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
@@ -31,13 +31,13 @@ body {
   text-align: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.95);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
 
-.titulo{
-  font-family: 'Roboto';
+.titulo {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -46,29 +46,29 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  color: #847F7B;
+  color: #847f7b;
 }
 
-.retangulo{
+.retangulo {
   box-sizing: border-box;
   width: 600px;
   height: 38.72px;
-  left: calc(50% - 600px/2 + 4px);
-  top: calc(50% - 38.72px/2 - 341.25px);
-  background: #FFFFFF;
-  border: 1px solid #847F7B;
+  left: calc(50% - 600px / 2 + 4px);
+  top: calc(50% - 38.72px / 2 - 341.25px);
+  background: #ffffff;
+  border: 1px solid #847f7b;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  padding-top: 20px;
+  padding: 0px 5px;
 }
 
-.textForm{
+.textForm {
   width: 600px;
   height: 38px;
-  left: calc(50% - 600px/2 + 4px);
-  top: calc(50% - 38px/2 + 291px);
+  left: calc(50% - 600px / 2 + 4px);
+  top: calc(50% - 38px / 2 + 291px);
   padding: 25px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -77,32 +77,32 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  color: #847F7B;
+  color: #847f7b;
 }
 
-.retanguloFinal{
+.retanguloFinal {
   box-sizing: border-box;
   width: 600px;
   height: 120px;
-  left: calc(50% - 600px/2 + 4px);
-  top: calc(50% - 38.72px/2 - 341.25px);
-  background: #FFFFFF;
-  border: 1px solid #847F7B;
+  left: calc(50% - 600px / 2 + 4px);
+  top: calc(50% - 38.72px / 2 - 341.25px);
+  background: #ffffff;
+  border: 1px solid #847f7b;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
 }
 
-.enviar{
+.enviar {
   width: 182px;
   border: none;
   height: 32px;
-  background: #54B19D;
-  box-shadow: 0px 4px 4px #85B7AC;
+  background: #54b19d;
+  box-shadow: 0px 4px 4px #85b7ac;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
-  color:#FFFFFF;
+  color: #ffffff;
   margin-top: 20px;
 }
 
@@ -128,12 +128,11 @@ header {
 
 /* configuracao da logo no cabeçalho para telas menores:  */
 @media (max-width: 768px) {
-  #logo  img {
+  #logo img {
     width: 80%;
     margin: 10px;
   }
 }
-
 
 #logo a {
   text-decoration: none;
@@ -154,7 +153,6 @@ nav {
   align-items: center;
   width: 80%;
   margin: 0 auto;
-  
 }
 
 .navegador_lista a {
@@ -182,7 +180,6 @@ nav {
   padding-top: 3px;
   text-align: right;
   width: 20%;
-  
 }
 
 .icones_acesso {
@@ -207,10 +204,10 @@ nav {
 
 /* --- ASIDE --- */
 aside {
-  background-color: #99C5BB;
+  background-color: #99c5bb;
 }
 
-.retanguloMaior{
+.retanguloMaior {
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
@@ -221,10 +218,10 @@ aside {
   text-align: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.95);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  color: #847F7B;
+  color: #847f7b;
   padding: 30px;
 }
 
@@ -236,19 +233,19 @@ aside {
   align-items: center;
   text-align: center;
   justify-content: center;
-  color: #847F7B;
+  color: #847f7b;
   padding: 30px;
 }
 
-.retangulo{
+.retangulo {
   box-sizing: border-box;
   width: 600px;
   height: 38.72px;
-  background: #FFFFFF;
-  border: 1px solid #847F7B;
+  background: #ffffff;
+  border: 1px solid #847f7b;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  padding-top: 20px;
+  padding: 0px 5px;
 }
 
 .textForm {
@@ -256,7 +253,7 @@ aside {
   height: 38px;
   padding-top: 25px;
   padding-bottom: 30px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -264,21 +261,21 @@ aside {
   align-items: center;
   text-align: center;
   justify-content: center;
-  color: #847F7B;
+  color: #847f7b;
 }
 
-.retanguloFinal{
+.retanguloFinal {
   box-sizing: border-box;
   width: 600px;
   height: 120px;
-  background: #FFFFFF;
-  border: 1px solid #847F7B;
+  background: #ffffff;
+  border: 1px solid #847f7b;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
 }
 
-@media (max-width:768px) {
-  .retanguloMaior{
+@media (max-width: 768px) {
+  .retanguloMaior {
     height: 1300px;
     width: 450px;
     margin-top: 45px;
@@ -302,17 +299,17 @@ aside {
   }
 }
 
-.enviar{
+.enviar {
   width: 182px;
   border: none;
   height: 32px;
-  background: #54B19D;
-  box-shadow: 0px 4px 4px #85B7AC;
+  background: #54b19d;
+  box-shadow: 0px 4px 4px #85b7ac;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
-  color:#FFFFFF;
+  color: #ffffff;
   margin-top: 20px;
 }
 
@@ -329,7 +326,7 @@ footer {
 .rodape_principal {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .lado_esquerdo {
@@ -350,12 +347,12 @@ footer {
 }
 
 .rodape_esquerdo {
-  padding:10px;
+  padding: 10px;
   text-decoration: none;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-} 
+}
 
 /* configuraçao do rodapé para telas menores */
 @media (max-width: 768px) {
@@ -363,8 +360,3 @@ footer {
     font-size: 12px;
   }
 }
-
-
-
-
-

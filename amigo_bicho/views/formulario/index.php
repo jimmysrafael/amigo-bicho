@@ -46,7 +46,7 @@ session_start();
    </nav>
 
    <div class="retanguloMaior">
-      <h1 class="titulo">Formulário AUMIGO PET</h1>
+      <h1 class="titulo">CADASTRE SEU AMIGO PET</h1>
       <form action="/amigo-bicho/amigo_bicho/index.php?action=processarFormulario" method="POST" enctype="multipart/form-data">
          <fieldset>
             <div>
